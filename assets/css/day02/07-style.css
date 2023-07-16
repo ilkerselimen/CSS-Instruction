@@ -1,0 +1,24 @@
+h1.baslik{
+    color: blue;
+}
+
+.baslik{ /* h1.baslik eziyor */
+    color: green;
+}
+
+h1{ /* h1.baslik eziyor */
+    color: aqua!important; 
+    /* !important her seyi ezer */
+}
+
+*{ /* h1.baslik eziyor */
+    color: red;
+}
+
+h1.baslik.renk{ /* daha spesifik oldugu icin eziyor */
+    color: blueviolet;
+}
+
+h1.baslik.renk.aktif{
+    color: brown;
+}
