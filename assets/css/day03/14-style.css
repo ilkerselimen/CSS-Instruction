@@ -1,0 +1,36 @@
+body{
+    height: 100%;
+    font-size: 1.2rem;
+}
+
+div.kutu1{
+    background-color: #009CFF;
+    width: 5cm;
+    height: 40%;
+}
+
+div.kutu2{
+    background-color: crimson;
+    width: 150px;
+    height: 40%;
+}
+
+div.kutu3{
+    background-color: black;
+    color: white;
+    width: 40%;
+    height: 120px;
+    font-size: 2rem;
+}
+
+div.kutu4{
+    background-color: burlywood;
+    width: 50%;
+    
+}
+
+div.kutu5{
+    background-color: blueviolet;
+    height: 50%;
+    width: 50vw;
+}
