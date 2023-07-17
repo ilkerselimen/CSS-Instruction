@@ -8,3 +8,9 @@ div.kutu1{
     padding-left: 2rem;
     padding-right: 2rem;
 }
+
+div.kutu2{
+    background-color: purple;
+    padding: 3rem 5rem 4rem 7rem;
+          /* top-right-bottom-left */
+}
