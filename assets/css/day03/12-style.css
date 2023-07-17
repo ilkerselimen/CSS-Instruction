@@ -1,0 +1,27 @@
+a{
+    color: green;
+}
+
+a:link{
+    color: #009CFF;
+    text-decoration: none;
+}
+
+a:visited{
+    color: rgb(255, 0, 170);
+    font-size: 1.4rem;
+}
+
+a:hover{
+    color: black;
+    background-color: crimson;
+    font-size: 2rem;
+}
+
+a:active{
+    color: blueviolet;
+}
+
+h1.baslik:hover{
+    color: purple;
+}
