@@ -10,18 +10,14 @@ header.header-el {
   text-align: center;
   padding: 1rem;
 }
-
 .header-el a {
   color:whitesmoke;
   padding: 16px;
   margin: 10px;
-
 }
-
 .header-el a:hover{
     color:#B72436
 }
-
 .header-el img{
     width: 20px;
     height: 16px;
