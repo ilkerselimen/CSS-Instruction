@@ -1,0 +1,23 @@
+body{
+    background-image: url("../img/pexels-wilson-vitorino-14528190.jpg");
+    background-repeat:no-repeat;
+    background-position:top center;
+    background-size: 1000px 800px;
+    height: 100vh;
+    padding: 40px;
+}
+
+.banner-1{
+    background-image: url("../img/nature.jpg");
+    height: 40vh;
+    background-size: cover;
+    background-position: center center;
+}
+.banner-2{
+    background-image: url("../img/nature.jpg");
+    height: 30vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-position: center;
+}
