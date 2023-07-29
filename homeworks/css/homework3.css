@@ -1,0 +1,64 @@
+:root{
+    --color1: red;
+    --color2: gray;
+    --color3:black;
+    --background-color1: white;
+}
+
+
+.fa-bars{
+    color: var(--color3); 
+    margin-top: 25px;
+    margin-left:  5px; 
+}
+
+.list{
+    list-style-type: none;
+    
+}
+
+nav.menu > div > ul > li > a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+nav.menu > div > ul > li >i{
+padding-right: 15px;
+color: var(--color1);
+}
+
+nav.menu  {
+    display: none;
+    margin-left:  5px;
+}
+
+#menuButton{
+    cursor: pointer;
+}
+
+#menuCheckbox{
+    display: none;
+}
+
+#menuCheckbox:checked + .menu{
+    display: block;
+}
+
+nav.menu ul{
+    padding: 0;
+}
+
+nav.menu ul li {
+    /* margin: 0; */
+    display: block;
+    padding: 1rem;
+    background-color: var(--color2);  
+}
+
+nav.menu div{  
+    display: inline-block;
+}
+
+nav.menu div ul li:hover{
+    background-color:var(--color3);
+}
