@@ -1,0 +1,135 @@
+:root {
+  --color1: rgb(57, 53, 53);
+  --color2: gray;
+  --color3: rgb(231, 230, 230);
+  --color4: white;
+  --color5: black;
+  --color6: rgb(255, 0, 0);
+  --color7: rgb(189, 66, 94);
+  --color8: rgb(231, 121, 24);
+  --color9: rgb(21, 238, 21);
+  --color10: yellow;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.table-section {
+  background-color: var(--color3);
+}
+
+.tablo{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shoppingcart {
+  border-style: ridge;
+  border: 2px solid;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  margin: 10px 0 10px 0;
+  width: 90vw;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.shoppingcart thead th {
+  background-color: var(--color1);
+  color: var(--color4);
+}
+
+.shoppingcart tbody tr:nth-child(odd) {
+  background-color: var(--color2);
+}
+
+.shoppingcart tbody tr:nth-child(even) {
+  background-color: var(--color3);
+}
+
+.shoppingcart tbody tr td:nth-child(6) {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.shoppingcart tbody tr td:nth-child(6) button:nth-child(1) {
+  background-color: var(--color8);
+  color: var(--color4);
+  cursor: pointer;
+}
+
+.shoppingcart tbody tr td:nth-child(6) button:nth-child(1):hover {
+  background-color: var(--color5);
+  color: var(--color8);
+}
+
+.shoppingcart tbody tr td:nth-child(6) button:nth-child(2) {
+  background-color: var(--color6);
+  color: var(--color4);
+  cursor: pointer;
+}
+
+.shoppingcart tbody tr td:nth-child(6) button:nth-child(2):hover {
+  background-color: var(--color5);
+  color: var(--color6);
+}
+
+.shoppingcart tfoot th {
+  background-color: var(--color1);
+  color: var(--color4);
+}
+
+.shoppingcart tfoot th:nth-child(1) {
+  text-align: right;
+  padding-right: 10px;
+}
+
+.buttons {
+  height: 8vh;
+  position: relative;
+}
+
+.buttons button{
+    background-color: var(--color7);
+    color: var(--color4);
+    cursor: pointer;
+}
+
+
+.buttons button:hover {
+    background-color: var(--color9);
+    color: var(--color6);
+    font-size: large;
+}
+
+.buttons button >i {
+    padding-right: 10px;
+}
+
+.paying {
+  width: 190px;
+  height: 40px;
+  position: absolute;
+  right: 35px;
+  bottom: 10px;
+  top: 10px;
+}
+
+.shopping{
+    width: 190px;
+    height: 40px;
+    position: absolute;
+    right: 250px;
+    bottom: 10px;
+    top: 10px;
+}
+
