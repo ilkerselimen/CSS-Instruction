@@ -1,0 +1,71 @@
+:root {
+  --color1: red;
+  --color2: rgb(51, 105, 222);
+  --background-color1: white;
+  --background-color2: rgb(27, 225, 50);
+  --ortala: center;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body{
+    background-color: #e4e2e2;
+}
+
+table.tablo{
+    background-color: var(--background-color1);
+}
+
+.image td img {
+  text-align: var(--ortala);
+}
+
+thead.tablo-resim tr td{
+padding-right: 25px;
+}
+
+.title {
+  text-align: left;
+  font-size: 1.4rem;
+  vertical-align: top;
+}
+
+table.tablo tr{
+   padding-left: 2px;
+}
+
+.content {
+  vertical-align: top;
+}
+
+
+
+tr.content td{
+    text-align: left;
+    padding-right: 80px;
+    padding-left: 2px;
+}
+
+.link {
+  text-align: left;
+  vertical-align: bottom;
+  background-color: red;
+}
+
+.link a {
+  text-decoration: none;
+  color: var(--color2);
+  cursor: pointer;
+}
+
+.link a:hover {
+  color: var(--color1);
+  background-color: var(--background-color2);
+}
+
+td.bosluk{
+    display: block;
+}
