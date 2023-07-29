@@ -1,0 +1,82 @@
+:root {
+  --color1: rgb(57, 53, 53);
+  --color2: gray;
+  --color3: rgb(231, 230, 230);
+  --color4: white;
+  --color5: black;
+  --color6: rgb(223, 63, 84);
+  --color7: rgb(234, 130, 198);
+  --color8: rgb(231, 121, 24);
+  --color9: rgb(21, 238, 21);
+  --color10: yellow;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.box {
+  margin: 10px;
+  border: 2px solid var(--color3);
+  border-bottom: 2px outset;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.upline {
+  display: flex;
+  height: 2vh;
+}
+
+.upline-left {
+  display: flex;
+  justify-content: flex-start;
+  flex: 1;
+  background-color: var(--color6);
+}
+
+.upline-right {
+  display: flex;
+  flex: 6;
+  background-color: var(--color7);
+}
+
+.under {
+  margin: 0;
+}
+
+.div-logo {
+  margin: 20px 0 0 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.span-title {
+  background-color: var(--color6);
+  color: var(--color4);
+  font-size: 3.4rem;
+  width: 70px;
+  height: 70px;
+  border-radius: 100px 100px 100px 100px;
+  -webkit-border-radius: 100px 100px 100px 100px;
+  -moz-border-radius: 100px 100px 100px 100px;
+  -ms-border-radius: 100px 100px 100px 100px;
+  -o-border-radius: 100px 100px 100px 100px;
+  text-align: center;
+}
+
+.div-logo  h2 {
+  padding-left: 2.5rem;
+  font-size: 3rem;
+  margin: .8rem;
+}
+
+.div-text p {
+  padding: 1rem 2.5rem 1rem 1.5rem;
+}
