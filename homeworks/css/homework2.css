@@ -1,0 +1,68 @@
+:root {
+  --color1: red;
+  --color2: rgba(250, 209, 254, 0.956);
+  --color3: black;
+  --color4: white;
+  --zemin1:#FF0063;
+  --zemin2:#EAF6F6;
+}
+
+body{
+  background-color: var(--color2);
+}
+
+.fa-bars {
+  color: var(--color3);
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  background-color: var(--zemin2);
+}
+
+.container div {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  height: 1.5rem;
+  padding-left: 8px;
+  cursor: pointer;
+  background-color: var(--zemin1);
+}
+
+.container > div > li {
+  list-style-type: none;
+}
+
+.container > div > li > a {
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.container div:hover {
+  background-color: var(--color3);
+  color: var(--color4);
+} 
+
+.container div li a:hover{
+  color: var(--color4);
+}
+
+.products {
+  background-color: greenyellow;
+}
+
+.blog {
+  background-color: red;
+}
+
+.contact {
+  background-color: yellow;
+}
